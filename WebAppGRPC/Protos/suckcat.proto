@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "WebAppGRPC.GrpcServices";
+
+package suckcat;
+
+service SuckCatSession{
+    rpc SuckingaCats (SuckingCatRequest) returns(SuckingReply);
+}
+
+message SuckingCatRequest{
+    string message=1;
+    int32 counts=2;
+   
+}
+
+message SuckingReply{
+    string message=1;
+    repeated string listnames=2;
+    map<int64, string> cats=3;
+}
