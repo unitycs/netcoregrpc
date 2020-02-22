@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package streamcontentrpc;
+
+// The StreamContent service definition.
+service StreamContent {
+  rpc GetStreamContent (StreamRequest) returns (stream StreamReplyContent) {}
+}
+
+message StreamRequest {
+  string fileName = 1;
+}
+message StreamReplyContent {
+  bytes content = 1;
+}
