@@ -22,5 +22,10 @@ namespace GrpcService
                 Message = "Hello " + request.Name
             });
         }
+
+        public override Task<VisitResponse> WishVisit(VisitRequest request, ServerCallContext context)
+        {
+            return base.WishVisit(request, context);
+        }
     }
 }
