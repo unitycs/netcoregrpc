@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppGRPC", "WpfAppGRPC\Wp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryGRPC", "ClassLibraryGRPC\ClassLibraryGRPC.csproj", "{0564C348-7B80-4890-B2FD-98BBEBB8E7DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationGRPC", "WebApplicationGRPC\WebApplicationGRPC.csproj", "{FAD91AEF-EF90-4DD5-93E8-0639CAEBCFAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationGRPC", "WebApplicationGRPC\WebApplicationGRPC.csproj", "{FAD91AEF-EF90-4DD5-93E8-0639CAEBCFAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationGRPC2", "WebApplicationGRPC2\WebApplicationGRPC2.csproj", "{BB3988E3-E803-4487-BCCA-E946F0CB36FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationGRPC2", "WebApplicationGRPC2\WebApplicationGRPC2.csproj", "{BB3988E3-E803-4487-BCCA-E946F0CB36FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundHost", "BackgroundServiceAndNLog\BackgroundHost.csproj", "{0639FD54-6486-4485-9D12-0ACC2AAFA141}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BB3988E3-E803-4487-BCCA-E946F0CB36FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3988E3-E803-4487-BCCA-E946F0CB36FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3988E3-E803-4487-BCCA-E946F0CB36FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0639FD54-6486-4485-9D12-0ACC2AAFA141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0639FD54-6486-4485-9D12-0ACC2AAFA141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0639FD54-6486-4485-9D12-0ACC2AAFA141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0639FD54-6486-4485-9D12-0ACC2AAFA141}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
