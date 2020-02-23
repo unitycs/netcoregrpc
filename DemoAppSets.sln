@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationGRPC2", "WebA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundHost", "BackgroundServiceAndNLog\BackgroundHost.csproj", "{0639FD54-6486-4485-9D12-0ACC2AAFA141}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryNetStandard", "ClassLibraryNetStandard\ClassLibraryNetStandard.csproj", "{DC1D6916-7F74-4B8C-86BF-575A5F0EBB78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0639FD54-6486-4485-9D12-0ACC2AAFA141}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0639FD54-6486-4485-9D12-0ACC2AAFA141}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0639FD54-6486-4485-9D12-0ACC2AAFA141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1D6916-7F74-4B8C-86BF-575A5F0EBB78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1D6916-7F74-4B8C-86BF-575A5F0EBB78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1D6916-7F74-4B8C-86BF-575A5F0EBB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1D6916-7F74-4B8C-86BF-575A5F0EBB78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
